@@ -1,0 +1,27 @@
+/* Dashboard simple styling, relying mostly on Bootstrap */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+.sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+}
+.sidebar a {
+    color: #ced4da;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+.sidebar a:hover, .sidebar a.active {
+    background-color: #495057;
+    color: white;
+}
+.main-content {
+    padding: 20px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+}
